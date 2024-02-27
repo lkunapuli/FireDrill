@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="87dad5e28cec02103310788bfd9fea93" sys_domain="global" table="x_686164_new_yea_0_status_report" version="3" view="requestreportws_x_686164_new_yea_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>4bdad5e27bec02109ca91106dd305c93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_emergency</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>c3dad5e2e7ec021022089b23280d9e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>03dad5e20aec02104a8d1e286eb2c693</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>0bdad5e2d3ec02106ecfb61fe6f77194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>47dad5e2a4ec021046b884814da47f94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>83dad5e2a6ec0210faa1f128e76ba594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_details</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_id>0fdad5e24dec0210a8b3ded8ca5aa793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="4fdad5e251ec0210af8829ff13d7de92">87dad5e28cec02103310788bfd9fea93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_686164_new_yea_0_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87dad5e28cec02103310788bfd9fea93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_686164_new_yea_0_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+            <sys_update_name>sys_ui_section_87dad5e28cec02103310788bfd9fea93</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="RequestReportWS (x_686164_new_yea_0)" name="requestreportws_x_686164_new_yea_0">4fdad5e251ec0210af8829ff13d7de92</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

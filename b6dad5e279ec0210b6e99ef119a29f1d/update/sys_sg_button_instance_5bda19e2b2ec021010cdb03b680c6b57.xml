@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Send emergency alert">13da19e2edec021030e98d1fd2ca7963</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="icon-Megaphone-Solid">17da19e216ec0210f4b722d1f59b5c4d</icon>
+        <label>Send emergency alert</label>
+        <location>quick_action</location>
+        <name>Send emergency alert</name>
+        <order/>
+        <parent>1fda19e29bec0210624561f3d98fd857</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:33</sys_created_on>
+        <sys_id>5bda19e2b2ec021010cdb03b680c6b57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send emergency alert</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_button_instance_5bda19e2b2ec021010cdb03b680c6b57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:33</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5bda19e2b2ec021010cdb03b680c6b57"/>
+</record_update>

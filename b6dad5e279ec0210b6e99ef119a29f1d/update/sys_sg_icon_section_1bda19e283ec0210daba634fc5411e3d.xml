@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets/>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:27</sys_created_on>
+        <sys_id>1bda19e283ec0210daba634fc5411e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dashboard</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_icon_section_1bda19e283ec0210daba634fc5411e3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:27</sys_updated_on>
+        <table/>
+        <title>dashboard</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+</record_update>

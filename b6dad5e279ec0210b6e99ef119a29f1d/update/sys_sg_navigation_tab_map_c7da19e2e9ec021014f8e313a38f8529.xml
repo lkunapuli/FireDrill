@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="Now Mobile Nav">9f67848187403300e0ef0cf888cb0b2e</navigation>
+        <navigation_tab display_value="My Status Reports">d7da19e230ec02106e5c2e52424b2153</navigation_tab>
+        <order>5</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:29</sys_created_on>
+        <sys_id>c7da19e2e9ec021014f8e313a38f8529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_c7da19e2e9ec021014f8e313a38f8529</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:29</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>

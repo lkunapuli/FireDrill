@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="type_of_emergency">cfda19e29cec0210b9b1959e5e6dd939</autofill_variable>
+        <category/>
+        <description/>
+        <label>Type of emergency</label>
+        <mandatory>false</mandatory>
+        <name>type_of_emergency</name>
+        <order>10</order>
+        <page/>
+        <parameter_screen display_value="Edit">dfda19e252ec02105e66d60adb3e793c</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>4bda19e246ec0210f2544ae32f6fe839</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Type of emergency</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_input_4bda19e246ec0210f2544ae32f6fe839</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_686164_new_yea_0_work_status_request_task</datasource_table>
+        <datasource_table_condition table="x_686164_new_yea_0_work_status_request_task">self_report.start_date&lt;=javascript:gs.beginningOfLast30Days()<item endquery="false" field="self_report.start_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.beginningOfLast30Days()"/>
+        </datasource_table_condition>
+        <embedded_screen display_value="Dashboard records Form">d3da19e2e9ec02103279665381391f42</embedded_screen>
+        <item_view/>
+        <name>Dashboard records Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:24</sys_created_on>
+        <sys_id>8fda19e27aec021051c49f95eb4d5d2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard records Main Item</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_master_item_8fda19e27aec021051c49f95eb4d5d2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:24</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Dashboard records View Config">0fda19e242ec02104db0d4e40e06702a</view_config>
+    </sys_sg_master_item>
+</record_update>

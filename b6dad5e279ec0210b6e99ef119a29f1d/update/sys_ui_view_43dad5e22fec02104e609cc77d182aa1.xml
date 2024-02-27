@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>employee_view_x_686164_new_yea_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:04</sys_created_on>
+        <sys_id>43dad5e22fec02104e609cc77d182aa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee View (x_686164_new_yea_0)</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ui_view_43dad5e22fec02104e609cc77d182aa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:04</sys_updated_on>
+        <title>Employee View (x_686164_new_yea_0)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

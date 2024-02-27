@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Who else was affected?</name>
+        <parent>d3da19e203ec02106c15b46d3ba8b451</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:24</sys_created_on>
+        <sys_id>5bda19e27dec02106ba4088102f8665a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Who else was affected?</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_5bda19e27dec02106ba4088102f8665a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:24</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

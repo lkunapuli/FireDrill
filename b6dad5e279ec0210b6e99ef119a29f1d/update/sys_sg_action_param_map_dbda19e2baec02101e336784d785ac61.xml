@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Report an Emergency">17da19e2f4ec0210985e8a284764ac62</button>
+        <item_parameter display_value="Check here if others were affected">5fda19e2fbec0210b83327554ffb4f5f</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:35</sys_created_on>
+        <sys_id>dbda19e2baec02101e336784d785ac61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5fda19e2fbec0210b83327554ffb4f5f</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_dbda19e2baec02101e336784d785ac61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:35</sys_updated_on>
+        <ui_parameter display_value="Check here if others were affected">9fda19e2e8ec021019151a06a62d6d61</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

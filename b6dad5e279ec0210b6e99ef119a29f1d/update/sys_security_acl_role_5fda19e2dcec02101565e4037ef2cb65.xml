@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:28</sys_created_on>
+        <sys_id>5fda19e2dcec02101565e4037ef2cb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13da19e2ffec02102fb96c82e0db056f.admin</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_security_acl display_value="13da19e2ffec02102fb96c82e0db056f">97da19e2e4ec0210d6bccdaa24e4fd6f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5fda19e2dcec02101565e4037ef2cb65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:28</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

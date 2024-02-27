@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource_filter">
+    <sys_ux_composite_datasource_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_condition>nameDYNAMIC90d1921e5f510100a9ad2572f2b47</base_condition>
+        <condition table="x_snc_emergency_0_status_report">status=at_risk^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <datasource display_value="Self Reports">badad5e2d9ec021020bd76015d4b1a4e</datasource>
+        <datasource_table>x_snc_emergency_0_status_report</datasource_table>
+        <filter display_value="At risk">3adad5e2a8ec0210edd2777a8168ae4d</filter>
+        <name>At risk</name>
+        <sys_class_name>sys_ux_composite_datasource_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:26</sys_created_on>
+        <sys_id>fedad5e294ec02103086be8c6b75544c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>At risk</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_filter_fedad5e294ec02103086be8c6b75544c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:26</sys_updated_on>
+    </sys_ux_composite_datasource_filter>
+</record_update>

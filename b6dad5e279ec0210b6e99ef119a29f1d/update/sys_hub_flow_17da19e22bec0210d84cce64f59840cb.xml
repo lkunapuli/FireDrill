@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_686164_new_yea_0.create_kb_article</internal_name>
+        <label_cache>[{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.record","label":"1 - Create Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.table_name","label":"1 - Create Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.emergency_alert_title","label":"Trigger - Record Created➛Emergency alert Record➛Emergency alert title","reference":"","reference_display":"Emergency alert title","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_emergency_alert","column_name":"emergency_alert_title"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency alert Record","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"reference","base_type":"reference","attributes":{}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.record","label":"2 - Update Record➛Emergency alert Record","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.table_name","label":"2 - Update Record➛Emergency alert Table","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>5bda19e27bec0210ee3665fd2572f7c9</master_snapshot>
+        <name>Create KB article</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>93da19e2f1ec0210e8cd408ec89f61ca</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles>aaa4855d0a0a0b820170399909974b83,ebda59e295ec0210aa7e92a48da15372</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17da19e22bec0210d84cce64f59840cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create KB article</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_hub_flow_17da19e22bec0210d84cce64f59840cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_686164_new_yea_0_emergency_alert">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93da19e2f1ec0210e8cd408ec89f61ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>x_686164_new_yea_0_emergency_alert</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"dfda19e277ec0210e666674eb4bd2ec9","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>17da19e22bec0210d84cce64f59840cb</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>dfda19e277ec0210e666674eb4bd2ec9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <trigger display_value="">93da19e2f1ec0210e8cd408ec89f61ca</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>dfda19e277ec0210e666674eb4bd2ec9</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>9fda19e292ec021031fa67072e6533ca</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=17da19e22bec0210d84cce64f59840cb^sys_idNOT INdfda19e277ec0210e666674eb4bd2ec9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=17da19e22bec0210d84cce64f59840cb^sys_idNOT IN1bda19e24cec0210fd522a86b81cb5ca"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>1bda19e24cec0210fd522a86b81cb5ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1bda19e24cec0210fd522a86b81cb5ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1bda19e24cec0210fd522a86b81cb5ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>1fda19e2a8ec02109f91d6c8dae7a3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1bda19e24cec0210fd522a86b81cb5ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>57da19e2c3ec0210059ff7a7347f2bca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>x_686164_new_yea_0_emergency_alert</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=17da19e22bec0210d84cce64f59840cb^sys_idNOT INdbda19e234ec0210a1a8efeb5b619fca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>17da19e22bec0210d84cce64f59840cb</id>
+        <name>Create KB article</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>dbda19e234ec0210a1a8efeb5b619fca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dbda19e234ec0210a1a8efeb5b619fca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=17da19e22bec0210d84cce64f59840cb^sys_idNOT IN5fda19e2ceec021014290e3aa47071c8,97da19e217ec0210c3862f80945cbdc9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</model>
+        <model_id>17da19e22bec0210d84cce64f59840cb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>5fda19e2ceec021014290e3aa47071c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5fda19e2ceec021014290e3aa47071c8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</model>
+        <model_id>17da19e22bec0210d84cce64f59840cb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>97da19e217ec0210c3862f80945cbdc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97da19e217ec0210c3862f80945cbdc9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=17da19e22bec0210d84cce64f59840cb^sys_idNOT IN93da19e266ec0210fee2def8e906aac7,d7da19e2fdec0210a403fa45edcf04c8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>create kb article</comment>
+        <display_text/>
+        <flow display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>93da19e266ec0210fee2def8e906aac7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <ui_id>1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93da19e266ec0210fee2def8e906aac7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93da19e266ec0210fee2def8e906aac7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>dbda19e280ec0210387c2a812f6642c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>kb_knowledge</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=93da19e266ec0210fee2def8e906aac7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>93da19e266ec0210fee2def8e906aac7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>1bda19e253ec0210561d73c02bdd62c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.emergency_alert_title}}^text=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=93da19e266ec0210fee2def8e906aac7^sys_idNOT INdfda19e2abec0210e08c34140c6de1c6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>93da19e266ec0210fee2def8e906aac7</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"script":"\nreturn fd_data.trigger.current.emergency_alert_title;","savedValue":""},"text":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar description \u003d fd_data.trigger.current.emergency_alert_message;\nreturn description.replace(/\\n/g, \u0027\u003cbr/\u003e\u0027);","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>dfda19e2abec0210e08c34140c6de1c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=93da19e266ec0210fee2def8e906aac7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Update KB article on emergency</comment>
+        <display_text/>
+        <flow display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>d7da19e2fdec0210a403fa45edcf04c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <ui_id>eb648296-f60b-4dbd-a66e-1fd2dcde294c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7da19e2fdec0210a403fa45edcf04c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7da19e2fdec0210a403fa45edcf04c8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>9bda19e2cbec02107ffc8d0e45b6c3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>x_686164_new_yea_0_emergency_alert</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d7da19e2fdec0210a403fa45edcf04c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d7da19e2fdec0210a403fa45edcf04c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>13da19e252ec02103b444e55a0eb55c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d7da19e2fdec0210a403fa45edcf04c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>d3da19e2ebec0210b8f93dafdc4ddbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>kb_article={{1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d7da19e2fdec0210a403fa45edcf04c8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d7da19e2fdec0210a403fa45edcf04c8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=17da19e22bec0210d84cce64f59840cb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb^sys_idNOT IN17da19e242ec02104ed70acb46fe66c8,57da19e229ec02109614b621298ea8c7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>17da19e242ec02104ed70acb46fe66c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_3138!!!_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>57da19e229ec02109614b621298ea8c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_3138!!!_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_17da19e22bec0210d84cce64f59840cb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_17da19e22bec0210d84cce64f59840cb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_17da19e22bec0210d84cce64f59840cb"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_686164_new_yea_0.create_kb_article</internal_name>
+        <label_cache>[{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.record","label":"1 - Create Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.table_name","label":"1 - Create Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.__dont_treat_as_error__","label":"1 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.emergency_alert_title","label":"Trigger - Record Created➛Emergency alert Record➛Emergency alert title","reference":"","reference_display":"Emergency alert title","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_emergency_alert","column_name":"emergency_alert_title"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency alert Record","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"reference","base_type":"reference","attributes":{}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.record","label":"2 - Update Record➛Emergency alert Record","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.table_name","label":"2 - Update Record➛Emergency alert Table","reference":"x_snc_emergency_0_emergency_alert","reference_display":"Emergency alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb648296-f60b-4dbd-a66e-1fd2dcde294c.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Create KB article</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create KB article">17da19e22bec0210d84cce64f59840cb</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles>aaa4855d0a0a0b820170399909974b83,ebda59e295ec0210aa7e92a48da15372</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bda19e27bec0210ee3665fd2572f7c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5bda19e27bec0210ee3665fd2572f7c9^sys_idNOT IN53da19e21cec021022994b4c8b4633c8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create KB article">5bda19e27bec0210ee3665fd2572f7c9</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>53da19e21cec021022994b4c8b4633c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53da19e21cec021022994b4c8b4633c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>53da19e21cec021022994b4c8b4633c8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>13da19e2bcec02107bafc583154519c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>53da19e21cec021022994b4c8b4633c8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>5bda19e220ec0210de70c913f2486dc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>x_686164_new_yea_0_emergency_alert</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5bda19e27bec0210ee3665fd2572f7c9^sys_idNOT INd3da19e218ec02102c84a2d9bb36aec6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5bda19e27bec0210ee3665fd2572f7c9</id>
+        <name>Create KB article</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>d3da19e218ec02102c84a2d9bb36aec6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d3da19e218ec02102c84a2d9bb36aec6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5bda19e27bec0210ee3665fd2572f7c9^sys_idNOT IN1fda19e246ec0210e0f7344e6d48c4c6,97da19e24bec0210dd52c462d42272c6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create KB article">5bda19e27bec0210ee3665fd2572f7c9</model>
+        <model_id>5bda19e27bec0210ee3665fd2572f7c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>1fda19e246ec0210e0f7344e6d48c4c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1fda19e246ec0210e0f7344e6d48c4c6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create KB article">5bda19e27bec0210ee3665fd2572f7c9</model>
+        <model_id>5bda19e27bec0210ee3665fd2572f7c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>97da19e24bec0210dd52c462d42272c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97da19e24bec0210dd52c462d42272c6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5bda19e27bec0210ee3665fd2572f7c9^sys_idNOT IN5fda19e28aec021088d1fda9b3baecc5,93da19e20aec0210e8a6cd344285d5c4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>create kb article</comment>
+        <display_text/>
+        <flow display_value="Create KB article">5bda19e27bec0210ee3665fd2572f7c9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>5fda19e28aec021088d1fda9b3baecc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <ui_id>1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5fda19e28aec021088d1fda9b3baecc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fda19e28aec021088d1fda9b3baecc5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>53da19e25aec02100176cca9faadb2c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>kb_knowledge</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fda19e28aec021088d1fda9b3baecc5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5fda19e28aec021088d1fda9b3baecc5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>57da19e2e4ec0210e5d7cf154cce3ac4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.emergency_alert_title}}^text=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fda19e28aec021088d1fda9b3baecc5^sys_idNOT IN9bda19e2bcec0210738f402f7988e1c5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>5fda19e28aec021088d1fda9b3baecc5</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"script":"\nreturn fd_data.trigger.current.emergency_alert_title;","savedValue":""},"text":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar description \u003d fd_data.trigger.current.emergency_alert_message;\nreturn description.replace(/\\n/g, \u0027\u003cbr/\u003e\u0027);","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>9bda19e2bcec0210738f402f7988e1c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fda19e28aec021088d1fda9b3baecc5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Update KB article on emergency</comment>
+        <display_text/>
+        <flow display_value="Create KB article">5bda19e27bec0210ee3665fd2572f7c9</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>93da19e20aec0210e8a6cd344285d5c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <ui_id>eb648296-f60b-4dbd-a66e-1fd2dcde294c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93da19e20aec0210e8a6cd344285d5c4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93da19e20aec0210e8a6cd344285d5c4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>1bda19e237ec021086f2117cbb7f25c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <value>x_686164_new_yea_0_emergency_alert</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=93da19e20aec0210e8a6cd344285d5c4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>93da19e20aec0210e8a6cd344285d5c4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>9fda19e2f2ec02104d72ca4a5f4094c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>93da19e20aec0210e8a6cd344285d5c4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>dbda19e215ec021090aab2d4d6501dc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>kb_article={{1baea8ff-2ccf-4776-ba43-3d4c9a22fd4e.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=93da19e20aec0210e8a6cd344285d5c4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=93da19e20aec0210e8a6cd344285d5c4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9^sys_idNOT IN17da19e23eec021083ce8105cfe5bac5,d7da19e2c5ec02109741feec789ac3c5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>17da19e23eec021083ce8105cfe5bac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_3133!!!_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_id>d7da19e2c5ec02109741feec789ac3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_3133!!!_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5bda19e27bec0210ee3665fd2572f7c9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>17da19e22bec0210d84cce64f59840cb</sys_id>
+        <latest_snapshot>5bda19e27bec0210ee3665fd2572f7c9</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patchrtp-01-05-2022_01-05-2022_1908.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=17da19e22bec0210d84cce64f59840cb^sys_idNOT IN9fda19e2b6ec0210595ce41d42ebdec7"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"17f1cce35141c550f8771641a3fed2a2","name":"plan","plan_signature":null}}</plan>
+        <plan_id>17da19e22bec0210d84cce64f59840cb</plan_id>
+        <snapshot>d7da19e216ec02108b3c5db0fbd954cb</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9fda19e2b6ec0210595ce41d42ebdec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:03</sys_updated_on>
+        <trigger display_value="">93da19e2f1ec0210e8cd408ec89f61ca</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=17da19e22bec0210d84cce64f59840cb"/>
+</record_update>

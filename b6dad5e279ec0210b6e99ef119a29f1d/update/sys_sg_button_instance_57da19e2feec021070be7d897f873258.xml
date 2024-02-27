@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Report an Emergency">17da19e2f4ec0210985e8a284764ac62</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="icon-Clipboard-Exclamation-Solid">9fda19e29eec0210b3826229c2d58d49</icon>
+        <label>Report an Emergency</label>
+        <location>quick_action</location>
+        <name>Report an Emergency</name>
+        <order/>
+        <parent>53da19e28fec02108b3f96785647fd59</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:07</sys_created_on>
+        <sys_id>57da19e2feec021070be7d897f873258</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report an Emergency</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_button_instance_57da19e2feec021070be7d897f873258</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:07</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=57da19e2feec021070be7d897f873258"/>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_686164_new_yea_0_status_report" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>0fdad5e298ec02100df44a31a09cfcab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>43dad5e2fbec0210991bcd864e4fedaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>c7dad5e2e1ec021025fbd0e71e71d1aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type_of_emergency</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>83dad5e2f9ec02104c59aea5022772a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>your_health_status</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>cbdad5e26fec02100f93555fd94230a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>0fdad5e294ec021018cbceaa09eb10a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>emergency_details</element>
+            <list_id display_value="x_686164_new_yea_0_status_report" element="NULL" name="x_686164_new_yea_0_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">03dad5e2abec0210fa04fc02f24edbab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_id>4bdad5e2d4ec0210a975bb09508e5ea8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_686164_new_yea_0_status_report</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03dad5e2abec0210fa04fc02f24edbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_686164_new_yea_0_status_report</sys_name>
+            <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+            <sys_update_name>sys_ui_list_x_686164_new_yea_0_status_report_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

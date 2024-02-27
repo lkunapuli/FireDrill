@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="New Year 2002 FireDrill">2fda59e24eec0210d6de1dc3c893a15d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Open Emergency Alert Portal</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>UI Builder ➚</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/x/686164/x_686164_new_yea_0/portal/home</query>
+        <report/>
+        <roles>x_686164_new_yea_0.emergency_alert_admin,x_686164_new_yea_0.emergency_alert_manager,x_686164_new_yea_0.emergency_alert_employee</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3da59e20eec02108df5731deaef435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert Portal ➚</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_app_module_e3da59e20eec02108df5731deaef435d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:08</sys_updated_on>
+        <timeline_page/>
+        <title>Emergency Alert Portal ➚</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>_blank</window_name>
+    </sys_app_module>
+</record_update>

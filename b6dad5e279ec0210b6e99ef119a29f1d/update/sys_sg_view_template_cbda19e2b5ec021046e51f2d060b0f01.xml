@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Emergency alert generic template</description>
+        <name>Emergency Alert</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:25</sys_created_on>
+        <sys_id>cbda19e2b5ec021046e51f2d060b0f01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_view_template_cbda19e2b5ec021046e51f2d060b0f01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:25</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Margin":{"Bottom":0},"CornerRadius":3,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":10},"MaxLines":1,"CellId":"text_01","Id":"text_01","Margin":{"Left":5,"Top":3,"Bottom":3},"TextAlignment":"Left"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_02","Id":"text_02","Margin":{"Right":5,"Top":3,"Bottom":3}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_03","Margin":{"Bottom":5,"Right":0,"Top":5},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":16},"MaxLines":2,"CellId":"text_03","Id":"text_03"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_04","Id":"text_04","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_05","Id":"text_05"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_05","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_07","Id":"text_07"}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=cbda19e2b5ec021046e51f2d060b0f01"/>
+</record_update>

@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_686164_new_yea_0.emergency_alert_app__</internal_name>
+        <label_cache>[{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Record","label":"1➛Work Status Request Task Record","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Table","label":"1➛Work Status Request Task Table","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Self Report Record","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Record.state","label":"1➛Work Status Request Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_emergency_0_work_status_request_task","column_name":"state"},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.record","label":"3➛Work Status Request Task Record","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.table_name","label":"3➛Work Status Request Task Table","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>ebda19e2bcec02102df0f4d4e81fdafa</master_snapshot>
+        <name>Emergency alert app - Cancel Work Status Task If Self Report Closed </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>2bda19e25cec021011721b7d34b749fa</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles name="x_686164_new_yea_0.emergency_alert_admin">ebda59e295ec0210aa7e92a48da15372</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abda19e2c3ec02106dee4138f941b2f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency alert app - Cancel Work Status Task If Self Report Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_hub_flow_abda19e2c3ec02106dee4138f941b2f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_686164_new_yea_0_status_report">statusCHANGESTOclosed<item display_value="Closed" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="closed"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bda19e25cec021011721b7d34b749fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <table>x_686164_new_yea_0_status_report</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"afda19e234ec0210fde721caae5137fa","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>abda19e2c3ec02106dee4138f941b2f9</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>afda19e234ec0210fde721caae5137fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <trigger display_value="">2bda19e25cec021011721b7d34b749fa</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>afda19e234ec0210fde721caae5137fa</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>6fda19e29cec0210c7bf81715a9258f9</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT INafda19e234ec0210fde721caae5137fa"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT INa3da19e2e5ec0210a920be1029983bfa"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>If Self Report status changes to closed</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>a3da19e2e5ec0210a920be1029983bfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3da19e2e5ec0210a920be1029983bfa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3da19e2e5ec0210a920be1029983bfa</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>27da19e247ec021016c6eb8281fdf8f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3da19e2e5ec0210a920be1029983bfa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>63da19e216ec0210f25e26be89f60cfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <value>statusCHANGESTOclosed</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a3da19e2e5ec0210a920be1029983bfa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>67da19e2e9ec021085db5a6be7b188fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <value>x_686164_new_yea_0_status_report</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=a3da19e2e5ec0210a920be1029983bfa"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT INe7da19e2b9ec0210733ab9b398cdb1f9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>abda19e2c3ec02106dee4138f941b2f9</id>
+        <name>Emergency alert app - Cancel Work Status Task If Self Report Closed </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>e7da19e2b9ec0210733ab9b398cdb1f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e7da19e2b9ec0210733ab9b398cdb1f9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT IN63da19e2fcec02107c8006ef95f040f9,67da19e2afec0210c86efb92f9303ef8,afda19e211ec021041f4bb56aae88bf8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</model>
+        <model_id>abda19e2c3ec02106dee4138f941b2f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:00</sys_created_on>
+        <sys_id>63da19e2fcec02107c8006ef95f040f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63da19e2fcec02107c8006ef95f040f9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD5aa0f007c1a870104cca5c64ca02c47e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</model>
+        <model_id>abda19e2c3ec02106dee4138f941b2f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>67da19e2afec0210c86efb92f9303ef8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=67da19e2afec0210c86efb92f9303ef8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</model>
+        <model_id>abda19e2c3ec02106dee4138f941b2f9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>afda19e211ec021041f4bb56aae88bf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=afda19e211ec021041f4bb56aae88bf8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT IN2bda19e201ec0210b0e602287d34ebf8,e3da19e2cdec021088bfb962d2310df7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Get the related Work status task record</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>2bda19e201ec0210b0e602287d34ebf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>df2d1a2d-7432-4644-897b-75c2baedcf0a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2bda19e201ec0210b0e602287d34ebf8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2bda19e201ec0210b0e602287d34ebf8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6fda19e24cec02103e25f1b0b0d31af6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2bda19e201ec0210b0e602287d34ebf8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a3da19e223ec02101a35f3bcf70c4ff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="Sort Type">5d09f99587003300663ca1bb36cb0bb1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2bda19e201ec0210b0e602287d34ebf8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>ebda19e2e6ec02105ababd67984343f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>x_686164_new_yea_0_work_status_request_task</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2bda19e201ec0210b0e602287d34ebf8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>2bda19e201ec0210b0e602287d34ebf8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>23da19e29bec0210b6406f6f64bfeef7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>self_report={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2bda19e201ec0210b0e602287d34ebf8^sys_idNOT INa7da19e2b7ec021065c373351a4a69f7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>sort_type</input_name>
+        <instance>2bda19e201ec0210b0e602287d34ebf8</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"sort_type":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a7da19e2b7ec021065c373351a4a69f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2bda19e201ec0210b0e602287d34ebf8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Cancel the Work status task record</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</flow>
+        <order>3</order>
+        <parent_ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e3da19e2cdec021088bfb962d2310df7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>f370f7c8-5cfa-4442-9d30-580f8e747c68</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3da19e2cdec021088bfb962d2310df7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3da19e2cdec021088bfb962d2310df7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>27da19e241ec02100d00a997d25336f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>state=Canceled</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3da19e2cdec021088bfb962d2310df7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6bda19e2ebec02103a7fbc3943ad9df7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>x_686164_new_yea_0_work_status_request_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3da19e2cdec021088bfb962d2310df7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e3da19e2cdec021088bfb962d2310df7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e7da19e23dec0210fa0fa48b9d354cf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{df2d1a2d-7432-4644-897b-75c2baedcf0a.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3da19e2cdec021088bfb962d2310df7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3da19e2cdec021088bfb962d2310df7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT INabda19e272ec0210b0d7c31f5bb565f6,efda19e234ec021077f9ef83733e78f7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2fda19e2a2ec021017deba3c71845ff7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>abda19e272ec0210b0d7c31f5bb565f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=abda19e272ec0210b0d7c31f5bb565f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>abda19e272ec0210b0d7c31f5bb565f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>ebda19e274ec02103c363aa3970eb1f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>If Work status task state is requested</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=abda19e272ec0210b0d7c31f5bb565f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>abda19e272ec0210b0d7c31f5bb565f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>efda19e2c6ec0210d9def3ec704b09f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{df2d1a2d-7432-4644-897b-75c2baedcf0a.Record.state}}=Requested</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=abda19e272ec0210b0d7c31f5bb565f6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=abda19e272ec0210b0d7c31f5bb565f6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63da19e2cfec0210523c0523ccc9fef6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>efda19e234ec021077f9ef83733e78f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>57c51f97-88ea-40f6-8d7f-ba2756dad846</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=efda19e234ec021077f9ef83733e78f7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=efda19e234ec021077f9ef83733e78f7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efda19e234ec021077f9ef83733e78f7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9^sys_idNOT IN2fda19e260ec0210f35ea478458799f4,67da19e2d6ec0210247c7ff754e2f7f5,a3da19e25cec02104d9d9c1e03f8f0f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>2fda19e260ec0210f35ea478458799f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_375!!!_changed_fields_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>67da19e2d6ec0210247c7ff754e2f7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_375!!!_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a3da19e25cec02104d9d9c1e03f8f0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_375!!!_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_abda19e2c3ec02106dee4138f941b2f9"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_686164_new_yea_0.emergency_alert_app__</internal_name>
+        <label_cache>[{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Record","label":"1➛Work Status Request Task Record","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Table","label":"1➛Work Status Request Task Table","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Self Report Record","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{}},{"name":"df2d1a2d-7432-4644-897b-75c2baedcf0a.Record.state","label":"1➛Work Status Request Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_emergency_0_work_status_request_task","column_name":"state"},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.record","label":"3➛Work Status Request Task Record","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.table_name","label":"3➛Work Status Request Task Table","reference":"x_snc_emergency_0_work_status_request_task","reference_display":"Work Status Request Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f370f7c8-5cfa-4442-9d30-580f8e747c68.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Emergency alert app - Cancel Work Status Task If Self Report Closed </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">abda19e2c3ec02106dee4138f941b2f9</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles name="x_686164_new_yea_0.emergency_alert_admin">ebda59e295ec0210aa7e92a48da15372</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebda19e2bcec02102df0f4d4e81fdafa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT IN6bda19e229ec02100129dae3fd4770f4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>If Self Report status changes to closed</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6bda19e229ec02100129dae3fd4770f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6bda19e229ec02100129dae3fd4770f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6bda19e229ec02100129dae3fd4770f4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>23da19e2f7ec02108fc668177d32bcf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>x_686164_new_yea_0_status_report</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6bda19e229ec02100129dae3fd4770f4</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6fda19e2f2ec021086a0a0d891add3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6bda19e229ec02100129dae3fd4770f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>abda19e2ccec0210cb818a9c2a492ef3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>statusCHANGESTOclosed</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=6bda19e229ec02100129dae3fd4770f4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT INe3da19e2edec021051bd5b76b3ae8df4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ebda19e2bcec02102df0f4d4e81fdafa</id>
+        <name>Emergency alert app - Cancel Work Status Task If Self Report Closed </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e3da19e2edec021051bd5b76b3ae8df4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e3da19e2edec021051bd5b76b3ae8df4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT IN63da19e2c0ec021012bc4ad59f1dddf3,a7da19e246ec0210891e28fb8e91a7f4,ebda19e28cec0210e389092a2c1f5cf2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</model>
+        <model_id>ebda19e2bcec02102df0f4d4e81fdafa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>63da19e2c0ec021012bc4ad59f1dddf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63da19e2c0ec021012bc4ad59f1dddf3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD5aa0f007c1a870104cca5c64ca02c47e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</model>
+        <model_id>ebda19e2bcec02102df0f4d4e81fdafa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a7da19e246ec0210891e28fb8e91a7f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7da19e246ec0210891e28fb8e91a7f4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</model>
+        <model_id>ebda19e2bcec02102df0f4d4e81fdafa</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>ebda19e28cec0210e389092a2c1f5cf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ebda19e28cec0210e389092a2c1f5cf2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT IN23da19e2d8ec02103423b97532b384f1,afda19e205ec0210817f2d7905ee00f2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Get the related Work status task record</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>23da19e2d8ec02103423b97532b384f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>df2d1a2d-7432-4644-897b-75c2baedcf0a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23da19e2d8ec02103423b97532b384f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23da19e2d8ec02103423b97532b384f1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>2bda19e2b1ec02106ac30c0729776ff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>x_686164_new_yea_0_work_status_request_task</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23da19e2d8ec02103423b97532b384f1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>2fda19e24bec0210b4c5decd1e5bd5f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>23da19e2d8ec02103423b97532b384f1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e3da19e2e5ec0210ff115ff1b9ab2af1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="Sort Type">5d09f99587003300663ca1bb36cb0bb1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=23da19e2d8ec02103423b97532b384f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>23da19e2d8ec02103423b97532b384f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a3da19e2eeec02103882895174d3d8f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>self_report={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23da19e2d8ec02103423b97532b384f1^sys_idNOT IN67da19e284ec02105132517748c0d9f2"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>sort_type</input_name>
+        <instance>23da19e2d8ec02103423b97532b384f1</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"sort_type":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>67da19e284ec02105132517748c0d9f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23da19e2d8ec02103423b97532b384f1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Cancel the Work status task record</comment>
+        <display_text/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</flow>
+        <order>3</order>
+        <parent_ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>afda19e205ec0210817f2d7905ee00f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>f370f7c8-5cfa-4442-9d30-580f8e747c68</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=afda19e205ec0210817f2d7905ee00f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afda19e205ec0210817f2d7905ee00f2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>27da19e27aec0210d791b796208675f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>x_686164_new_yea_0_work_status_request_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>afda19e205ec0210817f2d7905ee00f2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e7da19e204ec021030d2e9fc77decaf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>state=Canceled</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=afda19e205ec0210817f2d7905ee00f2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>afda19e205ec0210817f2d7905ee00f2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6fda19e2aeec02109085ad2c079bb5f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{df2d1a2d-7432-4644-897b-75c2baedcf0a.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=afda19e205ec0210817f2d7905ee00f2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=afda19e205ec0210817f2d7905ee00f2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT IN6bda19e295ec0210a1514f37434353f1,a7da19e265ec02107dc839287fcbe3f1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63da19e2cfec0210523c0523ccc9fef6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>6bda19e295ec0210a1514f37434353f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>57c51f97-88ea-40f6-8d7f-ba2756dad846</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6bda19e295ec0210a1514f37434353f1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6bda19e295ec0210a1514f37434353f1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6bda19e295ec0210a1514f37434353f1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2fda19e2a2ec021017deba3c71845ff7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency alert app - Cancel Work Status Task If Self Report Closed ">ebda19e2bcec02102df0f4d4e81fdafa</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>a7da19e265ec02107dc839287fcbe3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <ui_id>8aacfca8-954c-4630-9c8c-7052ccc59dff</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a7da19e265ec02107dc839287fcbe3f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a7da19e265ec02107dc839287fcbe3f1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>efda19e26aec02100a585215ebc3adf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <value>If Work status task state is requested</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7da19e265ec02107dc839287fcbe3f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a7da19e265ec02107dc839287fcbe3f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>afda19e2f0ec0210591758ccb0366fef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{df2d1a2d-7432-4644-897b-75c2baedcf0a.Record.state}}=Requested</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a7da19e265ec02107dc839287fcbe3f1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7da19e265ec02107dc839287fcbe3f1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa^sys_idNOT IN27da19e2cfec021076ca16ed4958c6f0,e7da19e2abec021043e0797201068df0,ebda19e2ccec021071ff3a45159df2ef"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>27da19e2cfec021076ca16ed4958c6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_478!!!_changed_fields_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>e7da19e2abec021043e0797201068df0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_478!!!_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>ebda19e2ccec021071ff3a45159df2ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_478!!!_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ebda19e2bcec02102df0f4d4e81fdafa"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>abda19e2c3ec02106dee4138f941b2f9</sys_id>
+        <latest_snapshot>ebda19e2bcec02102df0f4d4e81fdafa</latest_snapshot>
+        <compiler_build>glide-trackapptemplates-12-11-2020_06-05-2021_0000.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=abda19e2c3ec02106dee4138f941b2f9^sys_idNOT INafda19e2daec021079db4ece83c1cef5"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4ba126c1246c3c10f877679cc7f59eb9","name":"plan","plan_signature":null}}</plan>
+        <plan_id>abda19e2c3ec02106dee4138f941b2f9</plan_id>
+        <snapshot>2bda19e2ceec0210a746e2df62c880f5</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afda19e2daec021079db4ece83c1cef5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <trigger display_value="">2bda19e25cec021011721b7d34b749fa</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=abda19e2c3ec02106dee4138f941b2f9"/>
+</record_update>

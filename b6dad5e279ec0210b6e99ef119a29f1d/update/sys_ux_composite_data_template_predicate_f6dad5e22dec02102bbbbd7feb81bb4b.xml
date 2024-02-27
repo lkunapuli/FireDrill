@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>status,emergency_details,your_health_status,your_work_status,sys_updated_on,type_of_emergency</field_list>
+        <name>Self Reports</name>
+        <order/>
+        <predicate_bundle display_value="Self Reports">32dad5e2c5ec0210c790095f44de804c</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:31</sys_created_on>
+        <sys_id>f6dad5e22dec02102bbbbd7feb81bb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Reports</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_f6dad5e22dec02102bbbbd7feb81bb4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:31</sys_updated_on>
+        <table>x_686164_new_yea_0_status_report</table>
+        <ux_template display_value="Self Report Template">7edad5e2b0ec02106723a0893a2b124b</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order>10</order>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:01</sys_created_on>
+        <sys_id>87da19e24cec021022c9a983e9cf5415</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_87da19e24cec021022c9a983e9cf5415</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:01</sys_updated_on>
+        <target>viewgroup_03</target>
+        <ui_rule display_value="Team Status reports AtRisk (List)">87da19e2faec0210699ec175db8a8c1e</ui_rule>
+        <value>{"BackgroundColor":"#f0cecd", "FontColor":"#161b1c"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

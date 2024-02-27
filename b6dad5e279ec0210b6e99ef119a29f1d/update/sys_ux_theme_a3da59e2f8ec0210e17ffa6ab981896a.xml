@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>emergency portal theme</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3da59e2f8ec0210e17ffa6ab981896a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>emergency portal theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ux_theme_a3da59e2f8ec0210e17ffa6ab981896a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:08</sys_updated_on>
+        <theme>{&#13;
+    "--now-canvas-header-container--background-color": "41, 62, 64",&#13;
+    "--now-font-family" : "Roboto",&#13;
+    "--now-button--primary-negative--background-color": "214,45,50",&#13;
+    "--now-button--primary-negative--border-color": "214,45,50",&#13;
+    "--now-button--primary--background-color": "15,67,55",&#13;
+    "--now-heading--header-primary--color": "66,80,81",&#13;
+    "--now-color--secondary-2": "22,27,28",&#13;
+    "--now-text-link--font-family": "Roboto",&#13;
+    "--now-display-type--font-family": "Cabin",&#13;
+    "--now-label-value_label--font-family": "Roboto",&#13;
+    "--now-label-value_value--font-family": "Roboto",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+    "--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-color--neutral-12": "22,27,28",&#13;
+    "--now-highlighted-value--font-family": "Roboto",&#13;
+    "--now-highlighted-value_icon--tertiary_high--color": "221,145,34",&#13;
+    "--now-heading--header-primary--font-family": "Cabin",&#13;
+    "--now-heading--header-secondary--font-family": "Cabin",&#13;
+    "--now-heading--header-tertiary--font-family": "Cabin",&#13;
+    "--now-tabs--font-family": "Cabin",&#13;
+    "--now-button--secondary--background-color": "transparent",&#13;
+    "--now-color--neutral-5": "72,92,93",&#13;
+    "--now-color_background--primary": "255,255,255"&#13;
+&#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

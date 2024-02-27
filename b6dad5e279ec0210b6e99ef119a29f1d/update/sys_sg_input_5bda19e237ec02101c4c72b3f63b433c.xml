@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="your_work_status">5fda19e2d1ec0210e622d69eeb643a3b</autofill_variable>
+        <category/>
+        <description/>
+        <label>Work status</label>
+        <mandatory>false</mandatory>
+        <name>your_work_status</name>
+        <order>50</order>
+        <page/>
+        <parameter_screen display_value="Edit">dfda19e252ec02105e66d60adb3e793c</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:20</sys_created_on>
+        <sys_id>5bda19e237ec02101c4c72b3f63b433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work status</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_input_5bda19e237ec02101c4c72b3f63b433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:20</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>

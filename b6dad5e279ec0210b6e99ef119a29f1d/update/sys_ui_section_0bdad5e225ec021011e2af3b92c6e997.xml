@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0bdad5e225ec021011e2af3b92c6e997" sys_domain="global" table="x_686164_new_yea_0_status_report" version="3" view="activity_view_x_686164_new_yea_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:17</sys_created_on>
+            <sys_id>47dad5e298ec02105e8ba72c58063e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="83dad5e228ec021029b8d0b91a42eb97">0bdad5e225ec021011e2af3b92c6e997</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>worknotes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:17</sys_created_on>
+            <sys_id>07dad5e21cec021021bcbc0a33bed298</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="83dad5e228ec021029b8d0b91a42eb97">0bdad5e225ec021011e2af3b92c6e997</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:17</sys_created_on>
+            <sys_id>8fdad5e2e8ec0210f4e64fa74431ba97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">630a48aeb8fba0108b1ace29b406c4b9</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_686164_new_yea_0_status_report" sys_domain="global" view="83dad5e228ec021029b8d0b91a42eb97">0bdad5e225ec021011e2af3b92c6e997</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:17</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_686164_new_yea_0_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bdad5e225ec021011e2af3b92c6e997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_686164_new_yea_0_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+            <sys_update_name>sys_ui_section_0bdad5e225ec021011e2af3b92c6e997</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Activity View (x_686164_new_yea_0)" name="activity_view_x_686164_new_yea_0">83dad5e228ec021029b8d0b91a42eb97</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

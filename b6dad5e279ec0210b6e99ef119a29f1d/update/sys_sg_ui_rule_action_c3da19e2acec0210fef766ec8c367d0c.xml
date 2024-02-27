@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set Visibility">7e75bedc5b031010da168d8fa881c710</operation>
+        <order>20</order>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:36</sys_created_on>
+        <sys_id>c3da19e2acec0210fef766ec8c367d0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_c3da19e2acec0210fef766ec8c367d0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:36</sys_updated_on>
+        <target>who_else_was_affected</target>
+        <ui_rule display_value="Hide status and who else affected">43da19e2aeec021054f9d18a23278e1d</ui_rule>
+        <value>false</value>
+    </sys_sg_ui_rule_action>
+</record_update>

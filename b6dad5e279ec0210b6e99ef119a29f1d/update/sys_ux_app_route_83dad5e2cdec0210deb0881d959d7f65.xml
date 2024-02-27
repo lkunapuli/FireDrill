@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Emergency Alert - Workspace Config">6fda59e266ec0210d9b79faf8a010671</app_config>
+        <description/>
+        <extension_point/>
+        <fields>actionAttributes,actionComponent,formModel</fields>
+        <icon/>
+        <name>Record Related Items Tab</name>
+        <optional_parameters/>
+        <order>300</order>
+        <parent_macroponent display_value="sendEmergencyAlert">cfdad5e21aec021003f869a13f857464</parent_macroponent>
+        <parent_macroponent_composition_element_id>record_tabs_1_ckiiwfdnffoaaaabbbbddghhdamgvmbbbba</parent_macroponent_composition_element_id>
+        <route_type>related_items</route_type>
+        <screen_type display_value="Record Related Items Tab">03dad5e22dec02109fe47d0d00421464</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:04</sys_created_on>
+        <sys_id>83dad5e2cdec0210deb0881d959d7f65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Related Items Tab</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ux_app_route_83dad5e2cdec0210deb0881d959d7f65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:04</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=83dad5e2cdec0210deb0881d959d7f65"/>
+</record_update>

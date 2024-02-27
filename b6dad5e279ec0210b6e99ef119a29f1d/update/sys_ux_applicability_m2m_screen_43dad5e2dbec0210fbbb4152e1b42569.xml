@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Emergency Alert - Manager">03dad5e2beec0210ec3689f86606087a</applicability>
+        <order>0</order>
+        <screen display_value="Home_Manager">03dad5e238ec0210e2e4ca2d24ad22ba</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:39</sys_created_on>
+        <sys_id>43dad5e2dbec0210fbbb4152e1b42569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_43dad5e2dbec0210fbbb4152e1b42569</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:39</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_07_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:12</sys_created_on>
+        <sys_id>87dad5e273ec0210e1b9c4e89c267feb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_07_element</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_87dad5e273ec0210e1b9c4e89c267feb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:12</sys_updated_on>
+        <view_config display_value="My Status Reports Form View Config">dbda19e228ec021043c27defdc248f43</view_config>
+        <view_template_slot display_value="text_07">8bdad5e2beec02109e88e73c7258a7f6</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_686164_new_yea_0_status_report" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Self Report - Default view" name="x_686164_new_yea_0_status_report" related_list="NULL" sys_domain="global" view="Default view">8bdad5e2c5ec02100e6da83573e31aa1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_686164_new_yea_0_work_status_request_task.self_report</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:25</sys_created_on>
+            <sys_id>c7dad5e2a5ec0210a16fc81fc3258da1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Self Report - Default view" name="x_686164_new_yea_0_status_report" related_list="NULL" sys_domain="global" view="Default view">8bdad5e2c5ec02100e6da83573e31aa1</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:1fda19e20aec02106edae55e841f8483</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:25</sys_created_on>
+            <sys_id>c3dad5e244ec0210e1f0c5c58c427ca2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Self Report - Default view</calculated_name>
+            <filter/>
+            <name>x_686164_new_yea_0_status_report</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 02:01:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bdad5e2c5ec02100e6da83573e31aa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Self Report - Default view</sys_name>
+            <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+            <sys_update_name>sys_ui_related_x_686164_new_yea_0_status_report_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 02:01:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

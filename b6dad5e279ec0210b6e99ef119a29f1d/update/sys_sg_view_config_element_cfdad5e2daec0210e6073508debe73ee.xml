@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_02_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:17</sys_created_on>
+        <sys_id>cfdad5e2daec0210e6073508debe73ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_02_element</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_cfdad5e2daec0210e6073508debe73ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:17</sys_updated_on>
+        <view_config display_value="Requested View Config">0bda19e214ec0210c4a6e5dbe0694d2b</view_config>
+        <view_template_slot display_value="text_02">87da19e2dbec0210a2619d401e816500</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

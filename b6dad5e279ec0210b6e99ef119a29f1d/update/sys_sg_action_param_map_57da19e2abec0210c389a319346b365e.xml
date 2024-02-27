@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Request a report">57da19e206ec02105ef313bc8ba0aa64</button>
+        <item_parameter display_value="Manager">13da19e222ec0210a702f7833a59005d</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 02:01:39</sys_created_on>
+        <sys_id>57da19e2abec0210c389a319346b365e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13da19e222ec0210a702f7833a59005d</sys_name>
+        <sys_package display_value="New Year 2002 FireDrill" source="x_686164_new_yea_0">b6dad5e279ec0210b6e99ef119a29f1d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Year 2002 FireDrill">b6dad5e279ec0210b6e99ef119a29f1d</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_57da19e2abec0210c389a319346b365e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 02:01:39</sys_updated_on>
+        <ui_parameter display_value="Manager">5fda19e246ec021049c7b11b172d315c</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
